@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+
+}
+
+body {
+    background-color: aliceblue;
+}
+
+ul {
+    list-style: none;
+}
+
+li{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.63);
+    margin: 1rem ;
+    padding: 0.3rem ;
+    color: #fff;
+    border-radius: 0.5rem;
+    /* Making lists unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+p {
+   
+    padding-top: 0.7rem;
+    padding-left: 0.5rem;
+}
+
+/* Different background colors to the list items */
+
+li:nth-child(odd) {
+    background-color: rgb(169, 169, 169);
+}
+
+/* Places the trash can at the right */
+.far {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+}
+
+.far:hover {
+   cursor: pointer;
+   color: red;
+}
+
+.page-header {
+    margin-top:1rem;
+    color: rgba(255, 0, 21, 0.459);
+}
+
+.form-control {
+    margin: 2rem 0;
+}
+
+
+
